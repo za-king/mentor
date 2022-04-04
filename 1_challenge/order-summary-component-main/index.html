@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <div   class="flex bg-gray-50 w-full h-screen justify-center items-center">
+    <div style="background-image:url(./images/pattern-background-mobile.svg)"  class=" bg-cover bg-blue-200 w-[75%] h-[75%]  shadow-xl rounded">
+      <div class="w-full h-full flex items-center justify-center" >
+        <div class=" bg-white w-[18rem] h-[90%] rounded-xl ">
+
+
+          <head>
+            <div class="">
+              <img class="rounded-t-xl" src="./images/illustration-hero.svg" alt="illustration-hero">
+            </div>
+          </head>
+          <main>
+            <div class="flex flex-col justify-center items-center my-4">
+              <h2 class="font-sans font-bold text-xl">Order Summary</h2>
+              <p class="text-center text-slate-500 font-medium text-sm my-4 px-6">You can now listern to millions of songs,audiobooks, and podcasts on any
+                device anywhere you like!</p>
+                <div class=" bg-gray-100 w-[85%] h-[4rem] rounded-lg flex flex-rows justify-between justify-center items-center">
+                  <div class="ml-2"><img src="./images/icon-music.svg" alt=""></div>
+                  <div><p class="font-bold text-base">Anual Plan</p> <p class="text-base text-slate-500">$59.99/year</p></div>
+                  <button class="mr-2 underline text-purple-600 font-bold text-sm hover:text-blue-500 hover:no-underline">Change</button >
+                </div>
+            </div>
+  
+          </main>
+          <footer>
+            <div class="flex flex-col justify-center items-center">
+              <button class="bg-blue-700 w-[85%] h-[2.5rem]  rounded-lg hover:bg-violet-400 hover:shadow-violet-400 mb-4 text-white font-medium text-sm shadow-md shadow-blue-700">Proceed to Payment</button>
+              <button class="text-slate-500 font-medium text-sm hover:text-black">Cancel Order</button>
+            </div>
+          </footer>
+  
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+</body>
+
+</html>
